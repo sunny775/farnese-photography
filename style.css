@@ -1,0 +1,230 @@
+body{
+    background-color: gainsboro !important;
+}
+.main-content{
+    background-image:url(images/medical-icon.png);
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: contain;
+  background-attachment: fixed;
+  /*padding:6vw;*/
+  position:relative;
+  margin-top: 80px;
+  background-color: gainsboro;
+}
+.services{
+    padding: 0 6vw;
+    background-image: linear-gradient(to bottom,gainsboro,white,gainsboro);
+}
+.btn{
+    border-radius: 30px !important;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    background-color: /*#aeea00*/#795548  !important;
+    border: 1px solid #795548  !important;
+    color:white !important;
+}
+.btn:hover{
+    background-color: #88b600 !important;
+    border: 1px solid #88b600  !important;
+}
+
+.navbar input[type='text']{
+    background:rgba(0,0,0,0.04);
+    border-radius: 30px;
+}
+.navbar{
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.035);
+    padding-left: 6vw !important;
+    padding-right: 6vw !important;
+    opacity:0.9
+}
+.nav-item.active a{
+    font-size: 1.7em !important;
+    opacity:0.9;
+}
+
+.jumbotron{
+    padding:0 !important;
+    /* #007bff;*/
+    margin:0 !important;
+    margin-bottom: 20px !important;
+}
+.jumbotron .doc-img{
+    margin:0 !important;
+    padding:0;
+}
+.card{
+    
+    border-radius: 0;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.035);
+    padding: 0 !important;
+}
+.card-section .card-body h4{
+    letter-spacing: 1px;
+}
+/*.card-section{
+    background-color:#795548;
+    box-sizing: border-box !important;
+}*/
+footer{
+    padding: 0 7vw;
+    padding-bottom: 7vw;
+    background-color: #bcaaa4 !important;
+}
+.footer-cards{
+    margin:auto !important;
+    width: fit-content;
+}
+.footer-cards .card{
+    border:none !important;
+    background: black;
+    margin:0 !important;
+    padding: 0 1px;
+}
+.footer-cards .card-body{
+    /*background-color: #aeea00;*/
+    background-color: #795548 ;
+}
+.footer-cards .card:first-child{
+padding-left: 0;
+}
+.footer-cards .card:last-child{
+    padding-right: 0;
+    }
+
+.copyright{
+    text-align: center;
+    margin-top:50px;
+}
+.navbar .nav-link{
+    color:white;
+}
+.our-values .card{
+    border: 0;
+    box-shadow: none;
+}
+
+.card-section .card{
+    background-color: #795548;
+    padding:20px !important;
+    border:none !important;
+}
+.card-section .card:first-child .card-body{
+    background-color: white;
+}
+.card-section .card:not(:first-child) .card-body{
+    background-color: #6d4c41;
+}
+/*.jumbotron .doc-img{
+    background:red;
+}*/
+.jumbotron .doc-img img{
+height:100%;
+width:100%;
+}
+/*.jumbotron{
+    min-height:300px;
+}*/
+
+input.book-input,textarea{
+    width: 100%;
+    border-radius: 30px;
+    padding: 5px 15px;
+    border:none;
+    margin:2px;
+    outline: none;
+}
+input[type='submit']{
+    background: #58720a !important;
+}
+.gallery{
+    margin-bottom: 70px;
+    padding: 0 7vw;
+}
+.gallery .card{
+    padding:0 !important;
+    margin:0 !important;
+    border-radius: 0 !important;
+    border: 1px solid white !important;
+    
+}
+.gallery .card img{
+   height:100%;
+   border-radius: 0 !important;
+}
+.gallery-heading{
+    background: #795548;
+    margin: 25px 6vw;
+    text-align: center;
+    padding:10px 0;
+}
+.jumbotron.maternity{
+    background: url(images/britt\ and\ harp.JPG);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    color:white;
+    min-height: 304px;
+}
+.jumbotron.family{
+    background: url(images/family2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    min-height: 304px;
+}
+.jumbotron.children{
+    background: url(images/web2.jpg);
+    background-size: cover;
+    background-position:left;
+    background-repeat: no-repeat;
+    color:white;
+    min-height: 304px;
+}
+.jumbotron hr{
+    background-color: white !important;
+}
+.top-banner{
+    min-height:400px;
+    background-image: url(images/camera2.png);
+    background-color: rgb(173, 42, 42);
+    background-size: contain;
+    background-position:right;
+    background-repeat: no-repeat;
+    color:white;
+}
+.social-bar{
+    padding: 30px 0;
+    border-top:2px solid red;
+    border-bottom:2px solid red;
+    margin:20px auto !important;
+}
+.social-bar div i{
+    font-size: 2em;
+    color:red;
+}
+.experience{
+    background-image: linear-gradient(to bottom,gainsboro, white,gainsboro);
+    padding: 20px 7vw;
+    text-align: center;
+    margin: 5vw 0 !important;
+}
+.testimonials{
+    background-color:#f5f5f5;
+    padding: 3vw 12vw;
+    margin:0;
+    margin-bottom:5vw;
+}
+.testimonials .carousel-item{
+    padding:40px !important;
+}
+.testimonials ol li{
+    background-color: rgb(173, 42, 42) !important;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+}
+.map-section{
+    padding: 0 6vw 6vw 6vw;
+}
